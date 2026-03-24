@@ -36,35 +36,48 @@
 <!-- Hero -->
 <section id="home" class="hero">
     <div class="hero-bg"></div>
-    <div class="hero-content">
-        <div class="hero-avatar">
-            <img src="./avatar.jpg" alt="Anh Huy" class="avatar-img">
+
+    <div class="hero-container">
+        
+        <!-- LEFT -->
+        <div class="hero-left">
+            <div class="hero-avatar">
+                <img src="./avatar.jpg" alt="Anh Huy" class="avatar-img">
+            </div>
         </div>
-        <div class="hero-text">
+
+        <!-- RIGHT -->
+        <div class="hero-right">
             <h1 class="hero-title">
-                Xin chào, tôi là <span class="highlight">Anh Huy</span>
+                Xin chào 👋, tôi là <span class="highlight">Anh Huy</span>
             </h1>
-            <h2 class="hero-subtitle">Flutter Developer | Software Engineer Intern</h2>
+
+            <h2 class="hero-subtitle">
+                Flutter Developer | Software Engineer Intern
+            </h2>
+
             <p class="hero-description">
-                Đam mê phát triển ứng dụng di động với Flutter, tối ưu hiệu năng và trải nghiệm người dùng.
+                Tôi xây dựng ứng dụng mobile với Flutter, tập trung vào hiệu năng,
+                UI/UX và trải nghiệm người dùng thực tế.
             </p>
+
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">
-                    <i class="fas fa-eye"></i>
-                    Dự án của tôi
+                    <i class="fas fa-rocket"></i> Xem dự án
                 </a>
+
                 <a href="#contact" class="btn btn-secondary">
-                    <i class="fas fa-paper-plane"></i>
-                    Liên hệ
+                    <i class="fas fa-paper-plane"></i> Liên hệ
                 </a>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
     </div>
 </section>
-
 <!-- About -->
 <section id="about" class="about">
     <div class="container">
@@ -97,15 +110,104 @@
                     </div>
                 </div>
             </div>
-            <div class="about-image">
-                <div class="image-placeholder">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-            </div>
+        
         </div>
     </div>
 </section>
+<!-- Achievements -->
+<section id="achievements" class="achievements">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Thành tích nổi bật</h2>
+            <div class="section-line"></div>
+        </div>
 
+        <div class="achievements-grid">
+
+            <div class="achievement-item">
+                <i class="fas fa-trophy"></i>
+                <h3>Top 12 IOM Competition</h3>
+                <p>
+                    Lọt top 12 cuộc thi do IOM tổ chức, phát triển ý tưởng startup
+                    và trình bày trước hội đồng.
+                </p>
+            </div>
+
+            <div class="achievement-item">
+                <i class="fas fa-rocket"></i>
+                <h3>Startup S-LAND</h3>
+                <p>
+                    Đồng sáng lập và phát triển dự án, gọi vốn thành công
+                    hơn 70 triệu VNĐ.
+                </p>
+            </div>
+
+            <div class="achievement-item">
+                <i class="fas fa-users"></i>
+                <h3>Hoạt động Đoàn - Hội</h3>
+                <p>
+                    Tham gia tổ chức sự kiện, hoạt động sinh viên,
+                    đạt danh hiệu cán bộ Đoàn - Hội xuất sắc.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="tools" class="tools">
+    <div class="container">
+        <h2 class="section-title">Languages & Tools</h2>
+
+        <div class="tools-grid">
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
+                <span>Flutter</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg">
+                <span>Dart</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
+                <span>Firebase</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <span>HTML</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <span>CSS</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                <span>MySQL</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+                <span>Git</span>
+            </div>
+
+            <div class="tool-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <span>GitHub</span>
+            </div>
+
+        </div>
+    </div>
+</section>
 <!-- Skills -->
 <section id="skills" class="skills">
     <div class="container">
@@ -253,8 +355,8 @@
 
                     <!-- FIX: Thêm project-buttons wrapper -->
                     <div class="project-buttons">
-                        <a href="https://anhywork2004.github.io/greenworld/" target="_blank" class="btn btn-primary">
-                            <i class="fas fa-external-link-alt"></i> Xem Website
+                        <a href="https://anhywork2004.github.io/greenworld/" target="_blank" class="btn btn-project">
+                            <i class="fas fa-globe"></i> Xem Website
                         </a>
                     </div>
                 </div>
