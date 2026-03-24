@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Phạm Nguyễn Anh Huy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2 class="logo-text">Anh Huy</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Trang chủ</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Giới thiệu</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-graduation-cap"></i> Kỹ năng</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-rocket"></i> Dự án</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Liên hệ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-avatar">
+            <img src="./avatar.jpg" alt="Anh Huy" class="avatar-img">
+        </div>
+        <div class="hero-text">
+            <h1 class="hero-title">
+                Xin chào, tôi là <span class="highlight">Anh Huy</span>
+            </h1>
+            <h2 class="hero-subtitle">Flutter Developer | Software Engineer Intern</h2>
+            <p class="hero-description">
+                Đam mê phát triển ứng dụng di động với Flutter, tối ưu hiệu năng và trải nghiệm người dùng.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-eye"></i>
+                    Dự án của tôi
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-paper-plane"></i>
+                    Liên hệ
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Về tôi</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-para">
+                    Tôi là sinh viên CNTT với nền tảng vững chắc về lập trình và phát triển ứng dụng Flutter.
+                    Tôi yêu thích xây dựng sản phẩm hướng người dùng và luôn học hỏi công nghệ mới.
+                </p>
+                <p class="about-para">
+                    Có kinh nghiệm làm dự án startup, nghiên cứu người dùng và phát triển sản phẩm thực tế.
+                </p>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Dự án</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">Top 12</div>
+                        <div class="stat-label">IOM Competition</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">70M+</div>
+                        <div class="stat-label">Gọi vốn</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Kỹ năng</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">
+                        <span>Flutter (Dart)</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="progress" data-width="70%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">
+                        <span>Firebase</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="progress" data-width="65%"></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">
+                        <span>HTML/CSS</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="progress" data-width="70%"></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">
+                        <span>JavaScript</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="progress" data-width="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-label">
+                        <span>MySQL / SQLite</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="progress" data-width="80%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Dự án</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">VOCABO App</h3>
+                    <p class="project-description">
+                        Ứng dụng học từ vựng bằng Flashcard sử dụng Flutter + Firebase.
+                        Tích hợp Spaced Repetition và AI.
+                    </p>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/anhywork2004/vocabo-app" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-github"></i> App Code
+                        </a>
+                        <a href="https://github.com/anhywork2004/vocabo-web" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-globe"></i> Web Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">S-LAND Startup</h3>
+                    <p class="project-description">
+                        Dự án khởi nghiệp, xây dựng sản phẩm và gọi vốn 70 triệu VNĐ.
+                    </p>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Startup</span>
+                        <span class="tech-tag">Product</span>
+                    </div>
+
+                    <!-- FIX: Thêm project-buttons wrapper -->
+                    <div class="project-buttons">
+                        <a href="https://www.facebook.com/slandproject" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-facebook"></i> Xem Fanpage
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">GreenWorld Website</h3>
+                    <p class="project-description">
+                        Thiết kế và vận hành website dự án.
+                    </p>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JS</span>
+                    </div>
+
+                    <!-- FIX: Thêm project-buttons wrapper -->
+                    <div class="project-buttons">
+                        <a href="https://anhywork2004.github.io/greenworld/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Xem Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Liên hệ</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Hãy kết nối với tôi</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>anhy.work.2004@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p>0785 007 263</p>
+                    </div>
+                </div>
+            </div>
+
+            <form onsubmit="sendEmail(event)" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Họ và tên *" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email của bạn *" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Tin nhắn của bạn *" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <span>Gửi tin nhắn</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 <span class="highlight">Anh Huy</span>. Made with ❤️</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
